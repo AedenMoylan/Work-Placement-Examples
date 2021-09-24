@@ -1,0 +1,61 @@
+.button {
+    background-color: #000000;
+    border: 2px solid #4CAF50;
+    padding: 30px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.button:hover {
+    background-color: #3F3F3F;
+}
+
+.fire {
+
+    background-color: #FF0000;
+    border: 5px solid #000000;
+    padding: 15px;
+    text-align: center;
+    font-size: 28px;
+
+}
+
+.custom-select {
+
+    position: relative;
+    left: 350px;
+    top: -300px;
+}
+
+.red{
+    color: #FF0000;
+
+}
+
+.green{
+    color: #00FF00;
+}
+
+.white{
+    color: #FFFFFF
+}
+
+.pink{
+    color: #F000FF;
+}
+
+.blue{
+    color: #F000FF;
+}
+
+.yellow{
+    color: #FFFF00;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.veryRound {
+    border-radius: 25%;
+}

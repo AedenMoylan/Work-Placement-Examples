@@ -1,0 +1,92 @@
+# Open your existing yaml file and replace your existing obstacles sequence with this one	
+
+
+background:
+   file: ./resources/images/Background2.jpg # Sample comment
+tank:
+   position: {x: 850, y: 100}
+   duration: 6000
+obstacles: 
+   - type: wall
+     position: {x: 100, y: 660}
+     rotation: 0
+   - type: wall
+     position: {x: 134, y: 662}
+     rotation: 10
+   - type: wall
+     position: {x: 167, y: 670}
+     rotation: 20
+   - type: wall
+     position: {x: 650, y: 175}
+     rotation: 30
+   - type: wall
+     position: {x: 285, y: 790}
+     rotation: 75
+   - type: wall
+     position: {x: 251, y: 729}
+     rotation: 50
+   - type: wall
+     position: {x: 272, y: 757}
+     rotation: 60
+   - type: wall
+     position: {x: 1340, y: 240}
+     rotation: 0
+   - type: wall
+     position: {x: 1306, y: 238}
+     rotation: 10
+   - type: wall
+     position: {x: 1273, y: 230}
+     rotation: 20
+   - type: wall
+     position: {x: 750, y: 175}
+     rotation: 150
+   - type: wall
+     position: {x: 1154, y: 110}
+     rotation: 70
+   - type: wall
+     position: {x: 1189, y: 171}
+     rotation: 50
+   - type: wall
+     position: {x: 1168, y: 143}
+     rotation: 60
+   - type: wall
+     position: {x: 400, y: 200}
+     rotation: 90
+   - type: wall
+     position: {x: 400, y: 233}
+     rotation: 90
+   - type: wall
+     position: {x: 400, y: 266}
+     rotation: 90
+   - type: wall
+     position: {x: 400, y: 299}
+     rotation: 90
+   - type: wall
+     position: {x: 400, y: 332}
+     rotation: 90
+   - type: wall
+     position: {x: 900, y: 632}
+     rotation: 0
+   - type: wall
+     position: {x: 933, y: 632}
+     rotation: 0
+   - type: wall
+     position: {x: 966, y: 632}
+     rotation: 0
+   - type: wall
+     position: {x: 999, y: 632}
+     rotation: 0
+   - type: wall
+     position: {x: 1032, y: 632}
+     rotation: 0
+targets:
+   - position: {x: 720, y: 450, randomOffset: 20}
+   - position: {x: 275, y: 235, randomOffset: 20}
+   - position: {x: 125, y: 730, randomOffset: 20}
+   - position: {x: 1250, y: 120, randomOffset: 20}
+   - position: {x: 666, y: 95, randomOffset: 20}
+   - position: {x: 850, y: 700, randomOffset: 20}
+   - position: {x: 1150, y: 700, randomOffset: 20}
+ai_tank:
+   position: {x: 400, y: 700}
+   duration: 6000

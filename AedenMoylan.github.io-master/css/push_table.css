@@ -1,0 +1,103 @@
+.button {
+    background-color: #000000;
+    border: none;
+    box-shadow: 0 9px#505050;
+    padding: 30px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.button:hover {
+    background-color: #3F3F3F;
+}
+
+.button:active {
+    box-shadow: 0 5px #3D3D3D;
+    transform: translateY(5px);
+}
+
+.fire {
+    background-color: #505050;
+    border: none;
+    box-shadow: 0 9px#000000;
+    padding: 30px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.fire:hover {
+    background-color: #3F3F3F;
+}
+
+.fire:active {
+    box-shadow: 0 5px #3D3D3D;
+    transform: translateY(5px);
+}
+
+.custom-select {
+
+    position: relative;
+    left: 350px;
+    top: -300px;
+}
+
+.red {
+    color: #FF0000;
+}
+
+.green {
+    color: #00FF00;
+}
+
+.blue {
+    color: #0000FF;
+}
+
+.pink {
+    color: #F000FF;
+}
+
+.yellow {
+    color: #FFFF00;
+}
+
+.white {
+    color: #FFFFFF
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.veryRound {
+    border-radius: 25%;
+}
+
+.divTable{
+	display: table;
+	width: 25%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: none;
+	display: table-cell;
+	padding: 3px 10px;
+}
+.divTableHeading {
+	border: none;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	border: none;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
